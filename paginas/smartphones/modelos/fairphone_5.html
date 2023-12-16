@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../css/estilo.css">
+    <link rel="icon" type="image/x-icon" href="../../../img/selo_greentech_icone.jpg">
+    <title>Fairphone 5</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="../../../index.html"><h3><span>Green</span>tech</h3></a>
+            </li>
+
+            <li class="dropdown" id="menu">
+                <a>Eletrônicos</a>
+
+                <div class="dropdown-menu">
+                    <a href="../../notebooks/notebooks.html">Notebooks</a>
+                    <a href="../../smartphones/smartphone.html">Smartphones</a>
+                    <a href="">Tablet</a>
+                </div>
+            </li>
+
+            <li class="dropdown">
+                <a>Vida útil</a>
+
+                <div class="dropdown-menu">
+                    <a href="../../vida_util/vida_bateria/vida_bateria.html">Vida da bateria</a>
+                    <a href="../../vida_util/preservar_notebook.html">Cuidados com notebook</a>
+                    <a href="../../vida_util/preservar_notebook.html">Qual a hora de trocar um produto?</a>
+                </div>
+            </li>
+
+            <li>
+                <a href="../../contato.html">Contato</a>
+            </li>
+
+            <li>
+                <a href="../../sobre.html">Sobre</a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <div class="inicio-artigo" style="background-image: url(https://shop.fairphone.com/theme_fairphone/static/src/img/final_content/110.png);">
+        <h1>Melhor em eletrônica <span style="color: #45FF4E;"> verde</span></h1>
+    </div>
+
+    <div class="container">
+        <img id="foto_produto" width="35%" src="https://image.coolblue.be/max/500x500/products/1960997">
+
+        <div class="container_vertical">
+            <h2>Fairphone 5</h2>
+            <p>Entrega rápida para São Paulo (3 dias)</p>
+
+            <hr>
+
+            <p>R$4.899</p>
+<!--https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp14-silver-select-202310?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1697230830269-->
+
+            <div class="botao_foto">
+                <button style="background-color: rgba(87, 87, 87, 0.253);" value="https://image.coolblue.be/max/500x500/products/1960997"
+                onclick="mudarFoto()"></button>
+
+                <button style="background-color: rgb(120, 199, 245);" value="https://image.coolblue.be/max/500x500/products/1960989"
+                onclick="mudarFoto2()"></button>
+
+                <button style="background-color: rgb(63, 63, 63);" value="https://image.coolblue.be/max/500x500/products/1960978"
+                onclick="mudarFoto3()"></button>
+            </div>
+
+            <div>
+                <input name="radio_memoria" type="radio" id="memoria1">
+                <label for="memoria1">256GB</label>
+
+                <input name="radio_memoria" type="radio" id="memoria2">
+                <label for="memoria1">512GB</label>
+            </div>
+            <button class="compra">Comprar</button>
+
+            <div class="corpo_menor">
+                <h3>Descrição do produto</h3>
+                <p>
+                    O Fairphone 5 é um smartphone Android avançado e abrangente em todos os pontos de vista com algumas características excelentes. Tem uma grande tela de 6.46 polegadas com uma resolução de 2700x1224 pixels. As funcionalidades oferecidas pelo Fairphone 5 são muitas e inovadoras. Começando pelo 5G que permite a transferência de dados e excelente navegação na internet. Enfatizamos a excelente memória interna de 256 GB com a possibilidade de expansão.
+                    O Fairphone 5 é um produto com poucos concorrentes em termos de multimídia graças à câmera de 50 megapixels que permite ao Fairphone 5 tirar fotos fantásticas com uma resolução de 8165x6124 pixels e gravar vídeos em 4K a espantosa resolução de 3840x2160 pixels.
+                    <br><br>
+                    <ul>
+                        <li><p>Processador Qualcomm QCM6490</p></li>
+                        <li><p>6 GB de RAM para multitarefa suave</p></li>
+                        <li><p>256 GB de armazenamento para amplo armazenamento de arquivos</p></li>
+                        <li><p>Tela OLED para cores vivas e vibrantes</p></li>
+                        <li><p>Fácil manutenção e troca de bateria em segundos</p></li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+    </div>
+
+<br>
+
+<center>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/B5L3xhUNsPQ?si=z_Fizn6Gx-5KNk1K" title="YouTube video player" frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</center>
+
+
+    <script>
+        function mudarFoto(){
+            document.getElementById("foto_produto").src="https://image.coolblue.be/max/500x500/products/1960997";
+        }
+
+        function mudarFoto2(){
+            document.getElementById("foto_produto").src="https://image.coolblue.be/max/500x500/products/1960989";
+        }
+
+        function mudarFoto3(){
+            document.getElementById("foto_produto").src="https://image.coolblue.be/max/500x500/products/1960978";
+        }
+    </script>
+</body>
+</html>

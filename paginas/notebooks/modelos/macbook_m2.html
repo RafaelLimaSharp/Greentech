@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../css/estilo.css">
+    <link rel="icon" type="image/x-icon" href="../../../img/selo_greentech_icone.jpg">
+    <title>Macbook M2</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="../../../index.html"><h3><span>Green</span>tech</h3></a>
+            </li>
+
+            <li class="dropdown" id="menu">
+                <a>Eletrônicos</a>
+
+                <div class="dropdown-menu">
+                    <a href="../notebooks.html">Notebooks</a>
+                    <a href="../../smartphones/smartphone.html">Smartphones</a>
+                    <a href="">Tablet</a>
+                </div>
+            </li>
+
+            <li class="dropdown">
+                <a>Vida útil</a>
+
+                <div class="dropdown-menu">
+                    <a href="../../vida_util/vida_bateria/vida_bateria.html">Vida da bateria</a>
+                    <a href="../../vida_util/preservar_notebook.html">Cuidados com notebook</a>
+                    <a href="../../vida_util/preservar_notebook.html">Qual a hora de trocar um produto?</a>
+                </div>
+            </li>
+
+            <li>
+                <a href="../../contato.html">Contato</a>
+            </li>
+
+            <li>
+                <a href="../../sobre.html">Sobre</a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <div class="inicio-artigo" style="background-image: url(https://i1.wp.com/www.imore.com/sites/imore.com/files/styles/large_wm_blw/public/field/image/2022/06/macbook-air-with-m2-chip-in-person-wwdc.jpg);">
+        <h1>Um pequeno chip, de grande <span style="color: #45FF4E;">eficiência</span></h1>
+    </div>
+
+    <div class="container">
+        <img id="foto_produto" width="35%" src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mba15-midnight-select-202306?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1684518479433">
+
+        <div class="container_vertical">
+            <h2>Macbook M2</h2>
+            <p>Entrega rápida para São Paulo (3 dias)</p>
+
+            <hr>
+
+            <p>R$3.400</p>
+<!--https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp14-silver-select-202310?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1697230830269-->
+
+            <div class="botao_foto">
+                <button style="background-color: rgb(22, 22, 51);" value="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mba15-midnight-select-202306?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1684518479433"
+                onclick="mudarFoto()"></button>
+
+                <button style="background-color: rgb(229, 235, 186);" value="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mba15-starlight-select-202306?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1684518479450"
+                onclick="mudarFoto2()"></button>
+            </div>
+
+            <div>
+                <input name="radio_memoria" type="radio" id="memoria1">
+                <label for="memoria1">256GB</label>
+
+                <input name="radio_memoria" type="radio" id="memoria2">
+                <label for="memoria1">512GB</label>
+            </div>
+            <button class="compra">Comprar</button>
+
+            <div class="corpo_menor">
+                <h3>Descrição do produto</h3>
+                <p>
+                    O MacBook Air M2 é um notebook da Apple lançado em 2022. Ele vem com um chip M2 da Apple, que inclui uma CPU de 8 núcleos (4 de desempenho e 4 de eficiência), GPU de 10 núcleos, GPU de 8 núcleos e um Neural Engine de 16 núcleos. 
+                    Ele tem uma tela Liquid Retina de 15 polegadas com resolução nativa de 1470 x 956 pixels e suporte a um bilhão de cores.
+                    O MacBook Air M2 pesa 1,29 kg e tem uma bateria interna de polímero de lítio de 60 watts/hora, que pode durar até 18 horas de navegação em rede sem fio ou até 21 horas de reprodução de vídeo no app Apple TV.
+                    <br><br>
+                    <ul>
+                        <li><p>Processador Apple M2 Silicon</p></li>
+                        <li><p>8 GB de RAM para multitarefa suave</p></li>
+                        <li><p>256 GB de armazenamento para amplo armazenamento de arquivos</p></li>
+                        <li><p>Bateria ultra, para até 22 horas longe da tomada</p></li>
+                        <li><p>Tela Liquid Retina, permitindo consumo de mídia, até edições profissionais</p></li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+    </div>
+
+<br>
+
+<center>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/51QO4pavK3A?si=-sifTRdfBU2vg8Xh" title="YouTube video player" frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</center>
+
+
+    <script>
+        function mudarFoto(){
+            document.getElementById("foto_produto").src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mba15-midnight-select-202306?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1684518479433";
+        }
+
+        function mudarFoto2(){
+            document.getElementById("foto_produto").src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mba15-starlight-select-202306?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1684518479450";
+        }
+    </script>
+</body>
+</html>

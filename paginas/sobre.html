@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/estilo.css">
+    <link rel="icon" type="image/x-icon" href="../img/selo_greentech_icone.jpg">
+    <script src="https://kit.fontawesome.com/a703ddd776.js" crossorigin="anonymous"></script>
+    <title>Sobre a Greentech</title>
+
+    <style>
+        
+        h1{
+            z-index: 1;
+        }
+
+        #video-bg {
+    position: relative;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background: #f2f2fe;
+}
+
+.icones a{
+    display: inline-flex;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 40px;
+    background-color: #fff;
+    margin: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    background-size: 100% 200%;
+    background-position: 0% 5%;
+    transition: 0.3s;
+    border-radius: 6px;
+}
+
+/* Efeito de icone do Facebook */
+.icones a:nth-child(1){
+    color: #135fac;
+    background-image: linear-gradient(#fff 50%, #155ca3 50%);
+}
+
+/* Efeito d0 icone do youtube */
+.icones a:nth-child(2){
+    color: rgb(255, 0, 0);
+    background-image: linear-gradient(#fff 50%, red 50%);
+}
+
+.icones a:nth-child(3){
+    color: rgb(75, 160, 240);
+    background-image: linear-gradient(#fff 50%, rgb(56, 160, 245) 50%);
+}
+
+.icones a:nth-child(4){
+    color: rgb(6, 200, 74);
+    background-image: linear-gradient(#fff 50%, rgb(46, 204, 113)  50%);
+}
+
+.icones #selo{
+    color: rgb(6, 200, 74);
+    background-image: linear-gradient(#fff 50%, rgb(0, 86, 36)  50%);
+}
+
+/* Aplicação do efeito Hover */
+.icones a:hover{
+    background-position: 0% 100%;
+    color: #fff;
+}
+
+@media screen and (max-width: 700px){
+    .icones a{
+        display: flex;
+    }
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li id="logo">
+                <a href="../index.html"><h3><span>Green</span>tech</h3></a>
+            </li>
+
+            <li class="dropdown">
+                <a>Eletrônicos</a>
+
+                <div class="dropdown-menu">
+                    <a href="./notebooks/notebooks.html">Notebooks</a>
+                    <a href="./smartphones/smartphone.html">Smartphones</a>
+                    <a href="">Tablet</a>
+                </div>
+            </li>
+
+            <li class="dropdown">
+                <a>Vida útil</a>
+
+                <div class="dropdown-menu">
+                    <a href="./vida_util/vida_bateria/vida_bateria.html">Vida da bateria</a>
+                    <a href="./vida_util/preservar_notebook.html">Cuidados com notebook</a>
+                    <a href="./vida_util/trocar_produto.html">Qual a hora de trocar um produto?</a>
+                </div>
+            </li>
+
+            <li>
+                <a href="contato.html">Contato</a>
+            </li>
+
+            <li>
+                <a>Sobre</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="inicio-artigo" style="background-image: url(../img/a\ natureza\ é\ bela\ \(1\).jpg);">
+        <video style="min-height: 50vh;" muted autoplay loop id="video-bg">
+            <source src="../video/Natureza Greentech.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="linha">
+        <div class="coluna-85">
+            <h1>Sobre nós</h1>
+            <p>A Greentech é uma compania que tem como prioridade venda de produtos focados puramente na sustentabilidade.
+                Em um mundo onde cada vez mais a natureza precisa ser o assunto principal, a Greentech se apresenta para
+                facilitar o consumo consciente e responsável, com garantia de qualidade, suporte extendido, graças a sua 
+                parceria com diversas empresas do setor tecnológico.
+                Juntos a Apple, Acer, Intel, e outros parceiros, se torna possível a oferta de bens eficientes, rápidos,
+                e que causem o menor impacto possível.
+            </p>
+
+            <br>
+            <div class="container">
+                <div class="icones">
+                    <a href="https://apple.com">
+                        <i class="fa-brands fa-apple"></i>
+                    </a>
+        
+                    <a href="https://store.google.com/br/?hl=pt-BR&pli=1">
+                        <i class="fa-brands fa-google"></i>
+                    </a>
+        
+                    <a href="https://microsoft.com">
+                        <i class="fa-brands fa-microsoft"></i>
+                    </a>
+        
+                    <a href="https://xbox.com">
+                        <i class="fa-brands fa-xbox"></i>
+                    </a>
+                </div>
+            </div>
+            <br>
+
+            <h1>Selo Greentech: Produto pensado no meio ambiente</h1>
+            <p>Apesar do processo de checagem por trás de toda produção, a informação ao consumidor precisa ser simples e direta. 
+                Tem selo Greentech? Então é sustentável, e está dentro dos planos e políticas da empresa, qualquer fabricante pode solicitar
+                uma avaliação de suas práticas, e, se aprovado, colocar o selo em campanhas de marketing, embalagens recicláveis, 
+                como no item distribuído em si.
+            </p>
+            <br>
+
+            <div class="container">
+                <div class="icones">
+                    <a id="selo">
+                        <i class="fa-solid fa-feather"></i>
+                    </a>
+            </div>
+        </div>
+
+        <br>
+        <h2>Produto Retornável</h2>
+            <p>Com diversos pontos de atendimento de nossos parceiros, você pode retornar o produto que seria descartado, voltando para a linha de produção
+                com foco na reciclagem do item na fabricação de um novo, dessa forma, temos um consumo mais sustentável ao reaproveitar o que já foi extraído ao invés da busca
+                de novos. Você também pode ter acesso a promoções exclusivas ao fazer esse descarte correto, retribuindo seu esforço por um futuro melhor.
+            </p>
+
+            <br>
+        <h2>Suporte extendido</h2>
+        <p>Fabricantes com selo Greentech devem oferecer pelo menos 3 atualizações de Android (no caso de smartphones), 5 anos de peças de reposição, além das atualizações de 
+            segurança recorrente. O uso de componentes duráveis também é um requisito, como uso de USB-C para carregamento de dispositivos portáteis, durável, rápido, e universal,
+            ou seja, atendendo diversos aparelhos diferentes com um único carregador.
+        </p>
+
+        <br>
+        <div class="linha">
+            <img width="100%" style="max-width: fit-content;" src="https://cdn.laptopvang.com/wp-content/uploads/2023/09/microsoft-surface-studio-2-plus-1.jpg">
+        </div>
+        <br>
+
+        <h2>Carregador deve ser opcional e com desconto</h2>
+        <p>Os fabricantes que queiram vender um produto que tenha bateria mas sem seu carregador, devem oferecer uma opção com e sem, e sempre a versão sem deve ser mais
+            barata. O preço com o carregador incluso deve ser realista e justificado, através do nosso processo de avaliação do cumprimento dos requisitos do selo.
+        </p>
+
+        <br>
+        <h2>Artigos, suporte e venda</h2>
+        <p>Aqui oferecemos diversos artigos que podem melhorar o cuidado com os dispositivos adquiridos, perceber a hora de trocar, suporte, além da venda de produtos
+            em conformidade com nossas políticas. Sempre retorne para dar sua avaliação, sugestões, e claro, acompanhar as novidades no mundo da tecnologia, com princípios admiráveis
+            e importantes para a sociedade como um todo.
+        </p>
+    </div>
+</body>
+</html>

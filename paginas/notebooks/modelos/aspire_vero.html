@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../css/estilo.css">
+    <link rel="icon" type="image/x-icon" href="../../../img/selo_greentech_icone.jpg">
+    <title>Aspire Vero</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="../../../index.html"><h3><span>Green</span>tech</h3></a>
+            </li>
+
+            <li class="dropdown" id="menu">
+                <a>Eletrônicos</a>
+
+                <div class="dropdown-menu">
+                    <a href="../notebooks.html">Notebooks</a>
+                    <a href="../../smartphones/smartphone.html">Smartphones</a>
+                    <a href="">Tablet</a>
+                </div>
+            </li>
+
+            <li class="dropdown">
+                <a>Vida útil</a>
+
+                <div class="dropdown-menu">
+                    <a href="../../vida_util/vida_bateria/vida_bateria.html">Vida da bateria</a>
+                    <a href="../../vida_util/preservar_notebook.html">Cuidados com notebook</a>
+                    <a href="../../vida_util/preservar_notebook.html">Qual a hora de trocar um produto?</a>
+                </div>
+            </li>
+
+            <li>
+                <a href="../../contato.html">Contato</a>
+            </li>
+
+            <li>
+                <a href="../../sobre.html">Sobre</a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <div class="inicio-artigo" style="background-image: url(https://images.acer.com/is/image/acer/aspire-vero-banner-1:Secondary-Hero-L);">
+        <h1>Visual lindo, iniciativa <span style="color: #45FF4E;">admirável</span></h1>
+    </div>
+
+    <div class="container">
+        <img id="foto_produto" width="35%" src="https://gamerbraves.sgp1.cdn.digitaloceanspaces.com/2023/04/acer-vero-1.jpg">
+
+        <div class="container_vertical">
+            <h2>Acer Aspire Vero</h2>
+            <p>Entrega rápida para São Paulo (3 dias)</p>
+
+            <hr>
+
+            <p>R$3.400</p>
+<!--https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp14-silver-select-202310?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1697230830269-->
+
+            <div class="botao_foto">
+                <button style="background-color: rgb(1, 119, 44);" value="https://gamerbraves.sgp1.cdn.digitaloceanspaces.com/2023/04/acer-vero-1.jpg"
+                onclick="mudarFoto()"></button>
+
+                <button style="background-color: rgb(3, 1, 102);" value="https://imagevars.gulfnews.com/2023/03/06/Acer-Aspire-Vero_186b7adf410_original-ratio.jpg"
+                onclick="mudarFoto2()"></button>
+            </div>
+
+            <div>
+                <input name="radio_memoria" type="radio" id="memoria1">
+                <label for="memoria1">256GB</label>
+
+                <input name="radio_memoria" type="radio" id="memoria2">
+                <label for="memoria1">512GB</label>
+            </div>
+            <button class="compra">Comprar</button>
+
+            <div class="corpo_menor">
+                <h3>Descrição do produto</h3>
+                <p>
+                    O Acer Aspire Vero é um notebook ecológico da Acer. Ele é feito com material reciclado pós-consumo e é facilmente reciclável.
+                     O Aspire Vero é projetado de forma sustentável e fabricado com 30% menos emissões de CO2, demonstrando o compromisso da Acer com a redução das emissões de carbono. Ele vem com os mais recentes processadores Intel Core e o novo Windows 11, oferecendo desempenho incomparável.
+                    <br><br>
+                    <ul>
+                        <li><p>Processador Intel Core I5-1155G7</p></li>
+                        <li><p>8 GB de RAM para multitarefa suave</p></li>
+                        <li><p>256 GB de armazenamento para amplo armazenamento de arquivos</p></li>
+                        <li><p>Coberta robusta, suportando até 20kg</p></li>
+                        <li><p>Tela Full HD IPS, para agradar na visualização de mídia</p></li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+    </div>
+
+<br>
+
+<center>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/6knw50WVhGY?si=7JMtVr6piNoit5qu" title="YouTube video player" 
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</center>
+
+
+    <script>
+        function mudarFoto(){
+            document.getElementById("foto_produto").src="https://gamerbraves.sgp1.cdn.digitaloceanspaces.com/2023/04/acer-vero-1.jpg";
+        }
+
+        function mudarFoto2(){
+            document.getElementById("foto_produto").src="https://imagevars.gulfnews.com/2023/03/06/Acer-Aspire-Vero_186b7adf410_original-ratio.jpg";
+        }
+    </script>
+</body>
+</html>
